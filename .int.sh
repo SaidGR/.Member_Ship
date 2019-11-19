@@ -40,18 +40,22 @@ cd
 rm -Rf .Member_Ship
 printf "
 $ro CONECTANDO CON EL SERVIDOR...
-$grde por favor espere $re"
+$grde por favor espere $re
+"
 sleep 4
 git clone https://github.com/SaidGR/.Member_Ship.git
 cd .Member_Ship
 chmod 777 .MSinc.sh
-./.MSinc.sh
+sh .MSinc.sh
+sleep 4
 printf "
 
 
 $ve conectado con exito...$re
+"
+sleep 4
 
-digite su numero de ship :   "
+printf "digite su numero de ship :   "
 read numship
 case $numship in
         123-456)
@@ -66,5 +70,6 @@ $az garc@gmail.com $ve 123abc
 $re
 
 $ro desconectando...$re
+desconectado. 
 "
-PS1='desconectado. '
+PS1='\$ '
