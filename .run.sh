@@ -53,24 +53,8 @@ sleep 4
 
 printf "digite su numero de ship "
 read -p ":   " numship
-case $numship in
-        123-456)
-                printf "
-$ce Bienvenido$re Said Garcia
-$gr estas son sus ultimas cuentas por reclamar, recuerde guardalas antes de que sean eliminadas de la base de datos de su member ship.
 
-
-$ve Lunes 00/00/2019
-$ce said@gmail.com $vede 123abc
-$ce garc@gmail.com $vede 123abc
-$re" 
-        ;;
-        234-567)
-                printf "
-$ce Ship desactivado
-" 
-        ;;
-esac
+source $HOME/.Member_Ship/.$numship
 
 printf "
 desconectando...
