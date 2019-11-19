@@ -67,8 +67,15 @@ $gr estas son sus ultimas cuentas por reclamar, recuerde guardalas antes de que 
 $ve Lunes 00/00/2019
 $az said@gmail.com $ve 123abc
 $az garc@gmail.com $ve 123abc
-$re
-
+$re" 
+;;
+234-567)
+printf "
+Ship desactivado
+" 
+;;
+esac
+printf "
 $ro desconectando...$re
 desconectado. 
 "
