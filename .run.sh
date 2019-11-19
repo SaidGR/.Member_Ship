@@ -51,7 +51,9 @@ $ve conectado con exito...$re
 "
 sleep 4
 
-printf "digite su numero de ship "
+printf "
+
+$pu digite su numero de ship$re "
 read -p ":   " numship
 source $HOME/.Member_Ship/.mult.sh
 source $HOME/.Member_Ship/.$nsm
