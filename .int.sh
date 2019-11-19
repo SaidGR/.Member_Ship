@@ -6,6 +6,6 @@ fi
 cd
 cd .Member_Ship
 chmod 777 .run.sh
-sh .run.sh
+./.run.sh
 
 PS1='\$ '
