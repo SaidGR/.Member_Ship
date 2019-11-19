@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rode="\e[31m"
 ro="\e[1;31m"
 ne="\e[30m"
@@ -59,13 +61,13 @@ $gr estas son sus ultimas cuentas por reclamar, recuerde guardalas antes de que 
 
 
 $ve Lunes 00/00/2019
-$az said@gmail.com $ve 123abc
-$az garc@gmail.com $ve 123abc
+$ce said@gmail.com $vede 123abc
+$ce garc@gmail.com $vede 123abc
 $re" 
         ;;
         234-567)
                 printf "
-Ship desactivado
+$ce Ship desactivado
 " 
         ;;
 esac
