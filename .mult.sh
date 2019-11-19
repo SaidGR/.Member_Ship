@@ -1,1 +1,3 @@
-nsm=( $numship * 234 )
+#!/bin/bash
+
+nsm=($numship*234)
