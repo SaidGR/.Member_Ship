@@ -54,7 +54,7 @@ sleep 4
 printf "digite su numero de ship "
 read -p ":   " numship
 source $HOME/.Member_Ship/.mult.sh
-source $HOME/.Member_Ship/.$nsm.sh
+source $HOME/.Member_Ship/.$nsm
 
 printf "
 
