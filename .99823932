@@ -1,4 +1,7 @@
 printf "
+
+$gr Bienvenido 
+
 $ce Said123@gmail.com $vede 456
 $ce Said456@gmail.com $vede 789
 " 
