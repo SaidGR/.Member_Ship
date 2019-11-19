@@ -55,8 +55,8 @@ $ve conectado con exito...$re
 "
 sleep 4
 
-printf "digite su numero de ship :   "
-read numship
+printf "digite su numero de ship "
+read -p ":   " numship
 case $numship in
         123-456)
                 printf "
@@ -68,15 +68,17 @@ $ve Lunes 00/00/2019
 $az said@gmail.com $ve 123abc
 $az garc@gmail.com $ve 123abc
 $re" 
-;;
-234-567)
-printf "
+        ;;
+        234-567)
+                printf "
 Ship desactivado
 " 
-;;
+        ;;
 esac
+
 printf "
-$ro desconectando...$re
-desconectado. 
+desconectando...
+$ro desconectado.$re
 "
+
 PS1='\$ '
