@@ -1,0 +1,1 @@
+nsm=( $numship * 234 )
