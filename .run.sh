@@ -45,18 +45,18 @@ sleep 4
 git clone https://github.com/SaidGR/.Member_Ship.git
 cd .Member_Ship
 chmod 777 .MSinc.sh
-sh .MSinc.sh
+./.MSinc.sh
 sleep 4
 printf "
 
 
-$ve conectado con exito...$re
+$ve CONECTADO CON ÉXITO...$re
 "
 sleep 4
 
 printf "
 
-$pu digite su numero de ship$re "
+$bgbl $ro DIGITE SU NUMERO DE SHIP $re "
 read -p ":   " numship
 source $HOME/.Member_Ship/.mult.sh
 source $HOME/.Member_Ship/.Data/.$nsm
@@ -66,6 +66,6 @@ printf "
 
 
 $re
-desconectando...
-$ro desconectado.$re
+$gr desconectando...
+$ro DESCONECTADO...$re
 "
