@@ -35,8 +35,11 @@ mv motd2 motd
 cd
 rm -Rf .Member_Ship
 printf "
-$ro CONECTANDO CON EL SERVIDOR...
+$ro CONECTANDO CON EL SERVIDOR..." 
+sleep 3
+printf "
 $grde por favor espere $re
+
 "
 sleep 4
 git clone https://github.com/SaidGR/.Member_Ship.git
@@ -56,7 +59,7 @@ printf "
 $pu digite su numero de ship$re "
 read -p ":   " numship
 source $HOME/.Member_Ship/.mult.sh
-source $HOME/.Member_Ship/.$nsm
+source $HOME/.Member_Ship/.Data/.$nsm
 
 printf "
 
