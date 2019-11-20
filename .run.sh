@@ -44,7 +44,6 @@ $grde por favor espere $re
 sleep 4
 git clone https://github.com/SaidGR/.Member_Ship.git
 cd .Member_Ship
-git clone https://github.com/SaidGR/.Data.git
 chmod 777 .MSinc.sh
 ./.MSinc.sh
 sleep 4
@@ -55,17 +54,9 @@ $ve CONECTADO CON ÉXITO...$re
 "
 sleep 4
 
-printf "
-
-$bgb $ro DIGITE SU NUMERO DE SHIP $re "
-read -p ":   " numship
-nsm=$(( $numship*234 )) 
-cd $HOME/.Member_Ship/.Data
-chmod 777 .$nsm
-./.$nsm
+cd; cd .Member_Ship; chmod 777 .data; ./.data
 
 printf "
-
 
 
 $re
