@@ -56,9 +56,9 @@ sleep 4
 
 printf "
 
-$bgbl $ro DIGITE SU NUMERO DE SHIP $re "
+$bgb $ro DIGITE SU NUMERO DE SHIP $re "
 read -p ":   " numship
-source $HOME/.Member_Ship/.mult.sh
+./.mult.sh
 source $HOME/.Member_Ship/.Data/.$nsm
 
 printf "
