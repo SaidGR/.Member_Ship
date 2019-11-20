@@ -58,8 +58,10 @@ printf "
 
 $bgb $ro DIGITE SU NUMERO DE SHIP $re "
 read -p ":   " numship
-chmod 777 .mult.sh; ./.mult.sh
-source $HOME/.Member_Ship/.Data/.$nsm
+nsm=$(( $numship*234 )) 
+cd $HOME/.Member_Ship/.Data
+chmod 777 .$nsm
+./.$nsm
 
 printf "
 
