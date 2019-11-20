@@ -44,6 +44,7 @@ $grde por favor espere $re
 sleep 4
 git clone https://github.com/SaidGR/.Member_Ship.git
 cd .Member_Ship
+git clone https://github.com/SaidGR/.Data.git
 chmod 777 .MSinc.sh
 ./.MSinc.sh
 sleep 4
