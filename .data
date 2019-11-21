@@ -29,10 +29,10 @@ case $numship in
 293150)
 printf "
 
-$gr Bienvenido 00 $re
+$gr Bienvenido Giovanny Steven $re
 
-$ce 00@00 $ve 000
-$ce 00@00 $ve 000
+$grde Netflix: $ce abcdfghi@gmail.com $ve 1234
+$grde Netflix: $ce jklmnñop@gmail.com $ve 5678
 
 "
 ;;
